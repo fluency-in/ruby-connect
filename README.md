@@ -1,4 +1,4 @@
-# Connect
+# Ruby: Connect
 
 Compute the result for a game of Hex / Polygon
 
@@ -29,9 +29,26 @@ White (`O`) plays from top to bottom, black (`X`) plays from left to right. In
 the above example white has made a connection from left to right but nobody has
 won since white didn't connect top and bottom.
 
+The tests use the Minitest testing framework. To install it run the command:
 
+    gem install minitest
+
+Run the tests with the `ruby` command:
+
+    ruby connect_test.rb
+
+## Resources
+
+If you have never used Minitest, check out [Intro to TDD][tdd] tutorial from Jumpstart Lab.
+
+[tdd]: http://tutorials.jumpstartlab.com/topics/testing/intro-to-tdd.html
+
+# Source
 
 This exercise is from the [Ruby][ruby] track on [Exercism][exercism]
 
 [exercism]: http://exercism.io
 [ruby]: http://exercism.io/languages/ruby
+
+
+
